@@ -13,6 +13,10 @@ import java.util.*;
 @RequestMapping("/personas")
 public class PersonaController {
 
+    //V1/U1 va directo a bd + endpoints
+    //V2/U2 se crean más endpoints
+    //V3/U3 ya no hay más acceso a ls bd directamente, intermediarios.
+
     /*@Autowired
     //@Qualifier("personaServiceImplEmpty")
     private PersonaService service;*/

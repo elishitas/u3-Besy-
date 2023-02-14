@@ -11,6 +11,11 @@ public class Persona {
     private String nombre;
     private String apellido;
     private String dni;
+       /*
+    private List<?> lista = new ArrayLisy<>(); Asi SI -> Se trabaja con una implementación concreta.
+    private ArrayList<Carnet> lista; Asi NO
+
+     */
 
 
     /*
