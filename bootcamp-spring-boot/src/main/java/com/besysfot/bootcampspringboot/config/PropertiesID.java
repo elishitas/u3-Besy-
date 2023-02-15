@@ -15,13 +15,14 @@ public class PropertiesID {
     private String version;
     @Value("${app.list-values}")
     private List<String> listaValues;
-    @Value("${app.map-values}.key1")
-    private String mapValueUno;
-    @Value("${app.map-values}")
-    private Map<String, String> valuesMap;
 
-    public PropertiesID() {
-    }
+//    @Value("${app.map-values}.key1")
+ //   private String mapValueUno;
+ //   @Value("${app.map-values}")
+ //   private Map<String, String> valuesMap;
+
+ //   public PropertiesID() {
+ //   }
 
     public String getVersion() {
         return version;
@@ -38,7 +39,7 @@ public class PropertiesID {
     public void setListaValues(List<String> listaValues) {
         this.listaValues = listaValues;
     }
-
+/*
     public String getMapValueUno() {
         return mapValueUno;
     }
@@ -54,4 +55,6 @@ public class PropertiesID {
     public void setValuesMap(Map<String, String> valuesMap) {
         this.valuesMap = valuesMap;
     }
+
+ */
 }
