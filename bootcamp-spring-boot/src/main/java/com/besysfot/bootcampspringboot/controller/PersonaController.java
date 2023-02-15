@@ -83,6 +83,7 @@ public class PersonaController {
 
         persona.setId((long) (this.listaPersonas.size()+1));
         this.listaPersonas.add(persona);*/
+
         Persona personaAdd = this.service.altaPersona(persona);
 
         //Manejo del objeto nulo informando que existe la persona.
@@ -160,7 +161,7 @@ public class PersonaController {
         //this.listaPersonas.remove(indice);
     }
 
-
+    //Este ya no lo utilizamos porque lo tenemos en el servicio:
     /*private boolean isDniExist(String dni){
         Optional<Persona> persona = this.listaPersonas
                 .stream()
