@@ -37,6 +37,7 @@ public class PersonaController {
         this.service = service;
     }
 
+    //endpoints new
     @GetMapping()
     public List<Persona> obtenerTodos(){
         /* Arrays.asList reemplaza estas lineas
