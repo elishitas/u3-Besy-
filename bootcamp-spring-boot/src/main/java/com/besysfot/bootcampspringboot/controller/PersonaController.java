@@ -38,6 +38,7 @@ public class PersonaController {
     }
 
     //endpoints new
+    //GET -> http://localhost:9081/personas
     @GetMapping()
     public List<Persona> obtenerTodos(){
         /* Arrays.asList reemplaza estas lineas
